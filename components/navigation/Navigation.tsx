@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { CgMenuRightAlt } from "react-icons/cg";
 import { MobileNavigation } from "./MobileNavigation";
+import Link from "next/link";
 export interface navItemInterface {
 	name: string;
 	path: string;
@@ -26,13 +27,13 @@ export default function Navigation() {
 		<div>
 			<div className="hidden md:flex bg-primary text-primary-foreground justify-center gap-x-5 py-4 ">
 				{navitems.map((item) => (
-					<a
+					<Link
 						key={item.name}
 						href={item.path}
 						className="py-2 px-4 rounded border-transparent border-2 hover:border-blue-600 "
 					>
 						{item.name}
-					</a>
+					</Link>
 				))}
 			</div>
 			<div className="flex justify-end md:hidden bg-primary text-blue-600 py-4 px-4">

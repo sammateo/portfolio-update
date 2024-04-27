@@ -9,6 +9,7 @@ import {
 	SheetTrigger,
 } from "@/components/ui/sheet";
 import { navItemInterface } from "./Navigation";
+import Link from "next/link";
 interface NavbarProps {
 	openNav: boolean;
 	setOpenNav: any;
@@ -32,13 +33,13 @@ export function MobileNavigation({
 				</SheetHeader>
 				<div className="flex flex-col">
 					{navitems.map((item) => (
-						<a
+						<Link
 							key={item.name}
 							href={item.path}
 							className="py-2 px-4 rounded hover:bg-blue-600 transition ease-in-out"
 						>
 							{item.name}
-						</a>
+						</Link>
 					))}
 				</div>
 			</SheetContent>
