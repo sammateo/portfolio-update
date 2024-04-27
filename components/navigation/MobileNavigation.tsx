@@ -22,7 +22,7 @@ export function MobileNavigation({
 }: NavbarProps) {
 	return (
 		<Sheet open={openNav} onOpenChange={setOpenNav}>
-			<SheetContent className="bg-primary text-primary-foreground">
+			<SheetContent className="bg-gray-900 text-primary-foreground">
 				<SheetHeader>
 					<SheetTitle className="text-primary-foreground">
 						Mateo Sam
