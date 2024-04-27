@@ -25,7 +25,7 @@ export default function Navigation() {
 	];
 	return (
 		<div>
-			<div className="hidden md:flex bg-primary text-primary-foreground justify-center gap-x-5 py-4 ">
+			<div className="hidden md:flex bg-gray-900 text-primary-foreground justify-center gap-x-5 py-4 ">
 				{navitems.map((item) => (
 					<Link
 						key={item.name}
