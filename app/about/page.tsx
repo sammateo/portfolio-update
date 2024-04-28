@@ -7,10 +7,10 @@ import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa6";
 export default function page() {
 	let socialIconSize: number = 25;
 	return (
-		<div className="bg-gray-900 flex flex-col md:gap-y-20">
+		<div className="bg-gray-900 flex flex-col gap-y-20">
 			<Navigation />
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:py-10">
-				<div className="flex items-center">
+				<div className="hidden md:flex items-center">
 					<div className="flex w-4/6 lg:1/2 mx-auto">
 						<AboutImage />
 					</div>
