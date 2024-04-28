@@ -56,3 +56,6 @@
 html {
 	scroll-behavior: smooth;
 }
+body {
+	background-color: rgb(17, 24, 39);
+}
