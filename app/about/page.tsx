@@ -1,4 +1,5 @@
 import AboutImage from "@/components/about/AboutImage";
+import SocialLinks from "@/components/about/SocialLinks";
 import Navigation from "@/components/navigation/Navigation";
 import React from "react";
 import { FaCode } from "react-icons/fa6";
@@ -7,7 +8,7 @@ import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa6";
 export default function page() {
 	let socialIconSize: number = 25;
 	return (
-		<div className="bg-gray-900 flex flex-col gap-y-20">
+		<div className="bg-gray-900 flex flex-col gap-y-10 md:gap-y-20">
 			<Navigation />
 			<div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 md:py-10">
 				<div className="hidden md:flex items-center">
@@ -22,29 +23,29 @@ export default function page() {
 					<div className="text-blue-600 flex items-center gap-x-4">
 						<p>Mateo Sam</p> <FaCode size={20} /> <p>Developer</p>
 					</div>
-					<div className="text-white flex flex-col gap-y-4">
+					<div className="text-white flex flex-col gap-y-5">
 						<p>
-							Lorem ipsum dolor sit amet consectetur. At tellus
-							eget scelerisque sed consequat aliquam tellus
-							pellentesque sed. Mus sem vulputate pellentesque
-							morbi aenean non senectus interdum arcu. Est elit
-							magna sodales sollicitudin aliquet. Ac in neque
-							platea pulvinar ullamcorper enim egestas fringilla.{" "}
+							As a seasoned web developer, I blend creativity with
+							technical prowess to craft immersive online
+							experiences. With a passion for clean, efficient
+							code and a keen eye for design, I specialize in
+							turning visions into dynamic, user-friendly
+							websites. From front-end aesthetics to back-end
+							functionality, I thrive on the intricacies of web
+							development, constantly pushing the boundaries of
+							what's possible in the digital realm.
 						</p>
 						<p>
-							Et aliquet proin id enim ultrices nisi in. Penatibus
-							diam cras adipiscing in molestie volutpat sit tortor
-							netus. Vitae maecenas enim vel dolor mi. Sit tempor
-							neque in dictum eleifend tincidunt in lacus viverra.
-							Ridiculus fringilla nunc tincidunt sit mattis
-							gravida sit.
+							With expertise in a variety of programming
+							languages, frameworks, and tools, I bring
+							versatility to every project, ensuring optimal
+							performance across devices and platforms. Whether
+							it's building responsive layouts, integrating APIs,
+							or optimizing for SEO, I approach each task with
+							precision and a commitment to excellence.
 						</p>
 					</div>
-					<div className="text-blue-600 flex gap-x-5">
-						<FaGithub size={socialIconSize} />
-						<FaInstagram size={socialIconSize} />
-						<FaLinkedin size={socialIconSize} />
-					</div>
+					<SocialLinks socialIconSize={socialIconSize} />
 				</div>
 			</div>
 		</div>
