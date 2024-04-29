@@ -16,7 +16,7 @@ export default function page() {
 						<AboutImage />
 					</div>
 				</div>
-				<div className="order-1 md:order-2 font-medium flex flex-col justify-center gap-y-5 leading-7 px-5">
+				<div className="order-1 md:order-2 font-medium flex flex-col justify-center gap-y-5 leading-7 px-5 pb-5">
 					<h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
 						About Me
 					</h1>
