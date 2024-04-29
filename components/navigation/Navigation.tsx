@@ -30,7 +30,7 @@ export default function Navigation() {
 					<Link
 						key={item.name}
 						href={item.path}
-						className="py-2 px-4 rounded border-transparent border-2 hover:border-blue-600 "
+						className="py-1 px-5 rounded-full transition-all duration-500 ease-out border-transparent border-2 hover:border-blue-600 "
 					>
 						{item.name}
 					</Link>

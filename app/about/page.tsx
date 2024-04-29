@@ -33,16 +33,16 @@ export default function page() {
 							websites. From front-end aesthetics to back-end
 							functionality, I thrive on the intricacies of web
 							development, constantly pushing the boundaries of
-							what's possible in the digital realm.
+							what&apos;s possible in the digital realm.
 						</p>
 						<p>
 							With expertise in a variety of programming
 							languages, frameworks, and tools, I bring
 							versatility to every project, ensuring optimal
 							performance across devices and platforms. Whether
-							it's building responsive layouts, integrating APIs,
-							or optimizing for SEO, I approach each task with
-							precision and a commitment to excellence.
+							it&apos;s building responsive layouts, integrating
+							APIs, or optimizing for SEO, I approach each task
+							with precision and a commitment to excellence.
 						</p>
 					</div>
 					<SocialLinks socialIconSize={socialIconSize} />
