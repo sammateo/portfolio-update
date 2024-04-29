@@ -9,7 +9,7 @@ export default function SocialLinks({
 	return (
 		<div className="text-blue-600 flex gap-x-5">
 			<Link
-				href="https://github.com/sammateo/portfolio-update"
+				href="https://github.com/sammateo/"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
