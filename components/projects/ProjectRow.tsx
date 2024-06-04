@@ -1,7 +1,7 @@
 import React from "react";
 import { ProjectInterface } from "./Projects";
-import AboutImage from "../about/AboutImage";
-
+import { FaArrowRightLong } from "react-icons/fa6";
+import { HiArrowLongRight } from "react-icons/hi2";
 export default function ProjectRow({
 	id,
 	title,
@@ -276,19 +276,21 @@ export default function ProjectRow({
 			</div>
 			<div className="text-white flex flex-col gap-y-2 group-[:nth-of-type(even)]:order-1 mx-auto">
 				<h2 className=" font-semibold text-white text-xl">{title}</h2>
-				<p className=" font-light text-gray-300">{description}</p>
+				<p className=" font-medium text-gray-300">{description}</p>
 				<a
 					href={url}
 					target="_blank"
 					rel="noreferrer"
-					className="w-fit group inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+					className="w-fit group inline-flex items-center gap-1 text-md font-medium text-blue-600 border-2 border-transparent hover:border-blue-600 rounded-full py-1 px-4 transition-all duration-500 ease-out"
 				>
 					Visit
 					<span
 						aria-hidden="true"
-						className="block transition-all text-xl font-bold group-hover:ms-0.5 rtl:rotate-180"
+						className="block transition-all text-xl font-bold group-hover:ms-1 rtl:rotate-180"
 					>
-						&rarr;
+						{/* <FaArrowRightLong /> */}
+						<HiArrowLongRight />
+						{/* &rarr; */}
 					</span>
 				</a>
 				{/* <a href={github} target="_blank" rel="noreferrer">

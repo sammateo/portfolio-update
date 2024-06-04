@@ -36,7 +36,13 @@ export default function Navigation() {
 					</Link>
 				))}
 			</div>
-			<div className="flex justify-end md:hidden bg-gray-900 text-blue-600 py-4 px-4">
+			<div className="flex items-center justify-between md:hidden bg-gray-900 text-blue-600 py-4 pe-4">
+				<Link
+					href={"/"}
+					className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 transition-all duration-1000 ease-in-out bg-clip-text text-center w-fit mx-0 md:mx-auto text-xl px-4 py-2 font-extrabold text-transparent"
+				>
+					Mateo Sam
+				</Link>
 				<CgMenuRightAlt
 					size={35}
 					className=" cursor-pointer"

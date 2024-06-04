@@ -8,7 +8,7 @@ export default function page() {
 		<div>
 			<Navigation />
 			<div className=" md:mt-20">
-				<h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-center w-fit mx-0 md:mx-auto text-3xl px-4 font-extrabold text-transparent sm:text-5xl">
+				<h1 className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-center w-fit mx-0 md:mx-auto text-3xl px-4 py-2 font-extrabold text-transparent sm:text-5xl">
 					Projects
 				</h1>
 				<div className="[&>*:nth-child(even)]:bg-[#12355B]">
