@@ -25,14 +25,14 @@ const projectList: ProjectInterface[] = [
 		image: "/images/projects/lensteceu.png",
 		github: "",
 	},
-	{
-		title: "Covid-19 Tracker",
-		description: "Tracks COVID-19 Statistics",
-		id: 2,
-		url: "https://covid-19-stat-tracker.netlify.app/",
-		image: "/images/projects/covid.png",
-		github: "",
-	},
+	// {
+	// 	title: "Covid-19 Tracker",
+	// 	description: "Tracks COVID-19 Statistics",
+	// 	id: 2,
+	// 	url: "https://covid-19-stat-tracker.netlify.app/",
+	// 	image: "/images/projects/covid.png",
+	// 	github: "",
+	// },
 	{
 		title: "Find-A-Verse",
 		description: "Finds Bible verses",
@@ -42,14 +42,14 @@ const projectList: ProjectInterface[] = [
 		github: "",
 	},
 
-	{
-		title: "Cupid Delights",
-		description: "We post Roti skins all over UK & EU.",
-		id: 4,
-		url: "https://cupid-delights.netlify.app/",
-		image: "/images/projects/cupid.png",
-		github: "",
-	},
+	// {
+	// 	title: "Cupid Delights",
+	// 	description: "We post Roti skins all over UK & EU.",
+	// 	id: 4,
+	// 	url: "https://cupid-delights.netlify.app/",
+	// 	image: "/images/projects/cupid.png",
+	// 	github: "",
+	// },
 ];
 
 export default projectList;

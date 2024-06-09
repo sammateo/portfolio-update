@@ -3,7 +3,6 @@ import SocialLinks from "@/components/about/SocialLinks";
 import Navigation from "@/components/navigation/Navigation";
 import React from "react";
 import { FaCode } from "react-icons/fa6";
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa6";
 
 export default function page() {
 	let socialIconSize: number = 25;

@@ -15,13 +15,13 @@ export default function SocialLinks({
 			>
 				<FaGithub size={socialIconSize} />
 			</Link>
-			<Link
+			{/* <Link
 				href="https://www.instagram.com/sammateo4?igsh=MWo3ZmQ5aTA2dGw1YQ%3D%3D&utm_source=qr"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
 				<FaInstagram size={socialIconSize} />
-			</Link>
+			</Link> */}
 			<Link
 				href="https://www.linkedin.com/in/mateosam/"
 				target="_blank"
