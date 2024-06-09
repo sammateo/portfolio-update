@@ -12,7 +12,7 @@ export default function page() {
 					Projects
 				</h1>
 				{/* <div className="[&>*:nth-child(even)]:bg-[#12355B]"> */}
-				<div className="[&>*:nth-child(even)]:bg-[#12355B]">
+				<div className="">
 					{projectList.map((project) => (
 						<ProjectRow
 							key={project.id}
