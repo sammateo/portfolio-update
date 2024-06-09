@@ -26,13 +26,13 @@ export default function ProjectRow({
 												? image
 												: "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
 										}
-										className="absolute inset-0 h-full w-full object-cover object-top lg:object-contain"
+										className="absolute inset-0 h-full w-full object-cover object-top lg:object-contain lg:rounded"
 									/>
 								</div>
 							</div>
 
-							<div className="relative flex items-center bg-gray-800">
-								<span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-800"></span>
+							<div className="relative flex items-center bg-gray-800 lg:rounded-tr lg:rounded-br">
+								<span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-800 lg:rounded-tl lg:rounded-bl"></span>
 
 								<div className="p-8 sm:p-16 lg:p-24">
 									<h2 className="text-2xl font-bold sm:text-3xl text-white">
