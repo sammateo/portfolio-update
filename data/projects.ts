@@ -6,14 +6,14 @@ const projectList: ProjectInterface[] = [
 			"Elevating your brand is not just our goal - it's our expertise.",
 		id: 5,
 		url: "https://www.advansedigital.com/",
-		image: "",
+		image: "/images/projects/advanse.png",
 		github: "",
 	},
 	{
 		id: 0,
 		title: "ClearView Lens",
 		description: "ClearView Multifocal IOL by Lenstec, Inc.",
-		image: "",
+		image: "/images/projects/clearview.png",
 		url: "https://clearview-dev-80941.web.app/",
 		github: "",
 	},
@@ -22,7 +22,7 @@ const projectList: ProjectInterface[] = [
 		description: "Lenstec, Inc.'s EU Patient Information Website",
 		id: 1,
 		url: "https://eu-lenstec.web.app/",
-		image: "",
+		image: "/images/projects/lensteceu.png",
 		github: "",
 	},
 	{
@@ -30,7 +30,7 @@ const projectList: ProjectInterface[] = [
 		description: "Tracks COVID-19 Statistics",
 		id: 2,
 		url: "https://covid-19-stat-tracker.netlify.app/",
-		image: "",
+		image: "/images/projects/covid.png",
 		github: "",
 	},
 	{
@@ -38,7 +38,7 @@ const projectList: ProjectInterface[] = [
 		description: "Finds Bible verses",
 		id: 3,
 		url: "https://findaverse.netlify.app/",
-		image: "",
+		image: "/images/projects/findaverse.png",
 		github: "",
 	},
 
@@ -47,7 +47,7 @@ const projectList: ProjectInterface[] = [
 		description: "We post Roti skins all over UK & EU.",
 		id: 4,
 		url: "https://cupid-delights.netlify.app/",
-		image: "",
+		image: "/images/projects/cupid.png",
 		github: "",
 	},
 ];
